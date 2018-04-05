@@ -46,6 +46,14 @@
   border-color: #BCBCBC;
 }
 
+.jt-tag .jt-tag-aria-label {
+  display: inline-block;
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+  visibility: hidden;
+}
+
 /* Value inside jt-tag */
 .jt-tag .value {
   padding-left: 4px;
