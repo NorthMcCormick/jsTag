@@ -30,8 +30,10 @@
         />
     </span>
   </span>
+  <label aria-hidden for="jt-tag-new">New tag</label>
   <input
     class="jt-tag-new"
+    id="jt-tag-new"
     type="text"
     focus-me="inputService.isWaitingForInput"
     ng-model="inputService.input"
@@ -41,8 +43,10 @@
     ng-blur="inputService.onBlur(tagsCollection)"
     auto-grow
   />
+  <label aria-hidden for="jt-fake-input">Fake input</label>
   <input
     class="jt-fake-input"
+    id="jt-fake-input"
     focus-me="isThereAnActiveTag"
     ng-keydown="tagsInputService.onActiveTagKeydown(inputService, {$event: $event})"
     ng-blur="tagsInputService.onActiveTagBlur()" />
