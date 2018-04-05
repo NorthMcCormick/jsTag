@@ -23,6 +23,15 @@
   outline: 0;
 }
 
+/* Hide accessibility labels to users */
+.jt-tag-aria-label {
+  display: inline-block;
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+  visibility: hidden;
+}
+
 /* Tag */
 .jt-tag {
   background: #DEE7F8;
@@ -44,14 +53,6 @@
 
 .jt-tag:hover {
   border-color: #BCBCBC;
-}
-
-.jt-tag .jt-tag-aria-label {
-  display: inline-block;
-  width: 0px;
-  height: 0px;
-  overflow: hidden;
-  visibility: hidden;
 }
 
 /* Value inside jt-tag */
