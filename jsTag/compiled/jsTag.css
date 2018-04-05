@@ -24,7 +24,7 @@
 }
 
 /* Hide accessibility labels to users */
-.jt-tag-aria-label {
+label.jt-tag-aria-label {
   display: inline-block;
   width: 0px;
   height: 0px;
